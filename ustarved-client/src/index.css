@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ddc189;
+}
+
+/* Scrollbar Stilleri */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5a6604;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7a8514;
+}
+
+/* Genel Stiller */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+button {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+/* Animasyonlar */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.MuiContainer-root {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.MuiPaper-root {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Card Hover Effects */
+.MuiCard-root {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: 1px solid rgba(90, 102, 4, 0.1);
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 20px rgba(90, 102, 4, 0.15);
+  border-color: rgba(90, 102, 4, 0.2);
+}
+
+/* Button Styles */
+.MuiButton-contained {
+  text-transform: none;
+  font-weight: 600;
+  padding: 8px 24px;
+  background-color: #5a6604;
+}
+
+.MuiButton-contained:hover {
+  background-color: #7a8514;
+}
+
+.MuiButton-outlined {
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 24px;
+  border-color: #5a6604;
+  color: #5a6604;
+}
+
+.MuiButton-outlined:hover {
+  border-color: #7a8514;
+  color: #7a8514;
+  background-color: rgba(90, 102, 4, 0.04);
+}
+
+/* TextField Styles */
+.MuiTextField-root {
+  background-color: white;
+}
+
+.MuiInputBase-root {
+  border-radius: 8px;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #5a6604;
+}
+
+.MuiInputLabel-root.Mui-focused {
+  color: #5a6604;
+}
+
+/* Chip Styles */
+.MuiChip-root {
+  border-radius: 16px;
+  background-color: #ddc189;
+  color: #000000;
+}
+
+.MuiChip-root .MuiChip-icon {
+  color: #5a6604;
+}
+
+/* Typography Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #5a6604;
+}
+
+/* Container Padding */
+@media (max-width: 600px) {
+  .MuiContainer-root {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #5a6604 0%, #7a8514 100%);
+  color: white;
+}
+
+/* Search Bar */
+.search-bar {
+  background-color: white;
+  border: 1px solid rgba(90, 102, 4, 0.1);
+}
+
+.search-bar:hover {
+  border-color: rgba(90, 102, 4, 0.2);
+}
+
+/* Recipe Card */
+.recipe-card {
+  background-color: white;
+  border: 1px solid rgba(90, 102, 4, 0.1);
+}
+
+.recipe-card:hover {
+  border-color: rgba(90, 102, 4, 0.2);
+}
+
+/* Call to Action Section */
+.cta-section {
+  background: linear-gradient(135deg, #5a6604 0%, #7a8514 100%);
+  color: white;
+}
