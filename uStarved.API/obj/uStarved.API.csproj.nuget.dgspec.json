@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\YASİN\\Desktop\\uStarvedNEW\\uStarved.API\\uStarved.API.csproj": {}
+    "C:\\uStarvedNEW\\uStarved.API\\uStarved.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\YASİN\\Desktop\\uStarvedNEW\\uStarved.API\\uStarved.API.csproj": {
+    "C:\\uStarvedNEW\\uStarved.API\\uStarved.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\YASİN\\Desktop\\uStarvedNEW\\uStarved.API\\uStarved.API.csproj",
+        "projectUniqueName": "C:\\uStarvedNEW\\uStarved.API\\uStarved.API.csproj",
         "projectName": "uStarved.API",
-        "projectPath": "C:\\Users\\YASİN\\Desktop\\uStarvedNEW\\uStarved.API\\uStarved.API.csproj",
+        "projectPath": "C:\\uStarvedNEW\\uStarved.API\\uStarved.API.csproj",
         "packagesPath": "C:\\Users\\YASİN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\YASİN\\Desktop\\uStarvedNEW\\uStarved.API\\obj\\",
+        "outputPath": "C:\\uStarvedNEW\\uStarved.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

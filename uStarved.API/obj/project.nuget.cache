@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C7Av57YOuaA=",
+  "dgSpecHash": "1sEhVyCetrE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\YASİN\\Desktop\\uStarvedNEW\\uStarved.API\\uStarved.API.csproj",
+  "projectFilePath": "C:\\uStarvedNEW\\uStarved.API\\uStarved.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\YASİN\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\YASİN\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.0\\microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",
