@@ -16,4 +16,4 @@ COPY --from=build /app/out .
 
 # Uygulamayı başlat
 ENTRYPOINT ["dotnet", "uStarved.API.dll"]
-EXPOSE 80 
+EXPOSE 80
