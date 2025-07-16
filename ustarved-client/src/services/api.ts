@@ -38,7 +38,7 @@ interface Recipe {
 }
 
 const api = axios.create({
-    baseURL: 'http://localhost:5244/api',
+    baseURL: 'https://ustarved.onrender.com/api',
     headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
