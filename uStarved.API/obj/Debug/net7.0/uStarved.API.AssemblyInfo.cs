@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("uStarved.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0aac9b335782a90f1af030e3108e0f20cd0a8d5e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56eee7e45e37eee4cd9bc2d628bd6626d73a5195")]
 [assembly: System.Reflection.AssemblyProductAttribute("uStarved.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("uStarved.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
